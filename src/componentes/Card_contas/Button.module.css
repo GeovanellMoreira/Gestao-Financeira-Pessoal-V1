@@ -1,0 +1,89 @@
+.dialog:not([open]) {
+    display: none;
+}
+.dialog {
+    position: fixed;
+    inset: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    margin: 0;
+    padding: 0;
+
+    border: none;
+    background: rgba(0, 0, 0, 0.9);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--neutral-text);
+}
+
+.container {
+    width: 400px;
+    min-height: 250px;
+
+    padding: 30px;
+
+    background: var(--neutral-darker);
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    position: relative;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.button_cancelar {
+    cursor: pointer;
+}
+
+.button_add {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    body {
+        margin: 0;
+    }
+
+    .dialog {
+        position: fixed;
+        inset: 0;
+
+        width: auto;
+        height: auto;
+
+        justify-content: center;
+        align-items: center;
+
+        box-sizing: border-box;
+
+        border: none;
+        background: rgba(0, 0, 0, 0.9);
+
+        color: var(--neutral-text);
+    }
+
+    .container {
+        width: 350px;
+        padding: 30px;
+
+        background: var(--neutral-darker);
+        border-radius: 12px;
+
+        gap: 10px;
+
+        box-sizing: border-box;
+    }
+}

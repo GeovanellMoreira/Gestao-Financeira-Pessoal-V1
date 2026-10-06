@@ -1,0 +1,32 @@
+.infobox {
+    position: fixed;
+
+    top: 20px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    z-index: 999999;
+
+    width: fit-content;
+    max-width: 430px;
+
+    padding: 16px 18px;
+
+    box-sizing: border-box;
+
+    background: #292a31;
+    border: 1px solid #464750;
+    border-radius: 12px;
+
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+}
+
+.infobox__p {
+    margin: 0;
+
+    color: #e5e5e5;
+
+    font-size: 15px;
+    line-height: 1.4;
+}

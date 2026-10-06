@@ -1,0 +1,105 @@
+.cardd {
+    background-color: var(--neutral-surface);
+    width: 435px;
+    height: auto;
+    border-radius: 16px;
+}
+
+.h1 {
+    margin: 0;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 125%;
+    color: var(--neutral-text);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 435px;
+    height: 56px;
+    background-color: var(--neutral-header);
+}
+
+.div {
+    display: flex;
+    justify-content: space-between;
+    color: var(--neutral-text);
+    width: 94%;
+    margin-bottom: 16px;
+}
+
+
+
+.nome {
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.saldo{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.valor{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.linha{
+    margin-left: 16px;
+    width: 90%;
+    height: 1px;
+    background-color: var(--neutral-header);
+}
+
+.button{
+    font-size: 16px;
+    color: var(--neutral-text);
+    background-color: transparent;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 228px;
+    height: 40px;
+    gap: 5px;
+    border: 1px solid var(--neutral-text);
+}
+
+.div_button{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .cardd {
+        width: 100%;
+        max-width: auto;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    .h1 {
+        width: 100%;
+        max-width: auto;
+        margin: auto;
+        box-sizing: border-box;
+    }
+
+
+}

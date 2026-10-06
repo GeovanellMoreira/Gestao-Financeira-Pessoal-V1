@@ -1,0 +1,34 @@
+.divcard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin: 0;
+    align-items: start;
+}
+
+.footer{
+    display: none;
+}
+
+/* Celular */
+@media (max-width: 768px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .divcard {
+        grid-template-columns: 1fr;
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .footer {
+        display: flex;
+        margin-right: 0;
+        margin-top: 4vh;
+        font-size: 13px;
+        line-height: 120%;
+        text-align: center;
+        color: var(--neutral-text);
+    }
+}

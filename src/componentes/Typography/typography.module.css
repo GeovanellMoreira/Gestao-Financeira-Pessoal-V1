@@ -1,0 +1,18 @@
+.div{
+    color: var(--neutral-text);
+    margin: 0;
+    
+}
+
+.h1{
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 120%;
+    margin-bottom: 0;
+}
+
+.p{
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 120%;
+}

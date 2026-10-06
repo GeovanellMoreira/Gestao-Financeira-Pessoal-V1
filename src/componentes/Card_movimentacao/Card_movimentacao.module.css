@@ -1,0 +1,126 @@
+.card{
+    background-color: var(--neutral-surface);
+    width: 435px;
+    height: auto;
+    border-radius: 16px;
+}
+
+.h1{
+    margin: 0;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 125%;
+    color: var(--neutral-text);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 435px;
+    height: 56px;
+    background-color: var(--neutral-header);
+}
+
+.container{
+    margin-top: 24px;
+}
+
+.section_movimentacao{
+    font-size: 15px;
+    line-height: 120%;
+}
+
+.div_movimentacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0;
+    margin-left: 16px;
+    margin-top: 15px;
+}
+
+.nome_negativo{
+    color: #f87828;
+    font-weight: 600;
+}
+
+.nome_positivo{
+    color: #D6FF62;
+    font-weight: 600;
+}
+
+.data{
+    color: var(--neutral-text);
+}
+
+.valor_negativo{
+    color:#f87828;
+    display: flex;
+    margin-top: 0;
+    margin-left: 16px;
+}
+
+.valor_positivo{
+    color:#D6FF62;
+    display: flex;
+    margin-top: 0;
+    margin-left: 16px;
+}
+
+.linha{
+    margin-left: 16px;
+    width: 90%;
+    height: 1px;
+    background-color: var(--neutral-header);
+}
+
+.botao{
+    font-size: 16px;
+    color: var(--neutral-text);
+    background-color: transparent;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 228px;
+    height: 40px;
+    gap: 5px;
+    border: 1px solid var(--neutral-text);
+}
+
+.div_botao{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_button_add_remov{
+    display: flex;
+    text-align: center;
+    gap: 5px;
+}
+
+@media (max-width: 768px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .card {
+        width: 100%;
+        max-width: auto;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    .h1 {
+        width: 100%;
+        max-width: auto;
+        margin: auto;
+        box-sizing: border-box;
+    }
+
+
+}

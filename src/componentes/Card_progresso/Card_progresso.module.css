@@ -1,0 +1,199 @@
+.card {
+    background-color: var(--neutral-surface);
+    width: 435px;
+    height: auto;
+    border-radius: 16px;
+    margin: 0;
+}
+
+.h1 {
+    margin: 0;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 125%;
+    color: var(--neutral-text);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 435px;
+    height: 56px;
+    background-color: var(--neutral-header);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 15px;
+        margin-bottom: 15px;
+}
+
+.p {
+    font-size: 16px;
+    color: var(--neutral-text);
+    background-color: transparent;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 228px;
+    height: 40px;
+    gap: 5px;
+    border: 1px solid var(--neutral-text); 
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.dialog {
+    position: fixed;
+    inset: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    margin: 0;
+    padding: 0;
+
+    border: none;
+    background: rgba(0, 0, 0, 0.9);
+
+    justify-content: center;
+    align-items: center;
+    color: var(--neutral-text);
+    display: flex;
+}
+
+.container_dialog {
+    width: 400px;
+    min-height: 250px;
+
+    padding: 30px;
+
+    background: var(--neutral-darker);
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    position: relative;
+    z-index: 1;
+    
+}
+
+.div_button{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    gap: 5px;
+}
+.div_meta{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.titulo_meta{
+    color: var(--neutral-text);
+}
+
+
+.saldo_meta{
+    color: var(--neutral-text);
+}
+
+.linha{
+    margin-left: 16px;
+    width: 90%;
+    height: 1px;
+    background-color: var(--neutral-header);
+}
+
+.div_button_add_remove{
+    margin-top: 13px;
+}
+
+.button_add_remove{
+    background-color: transparent;
+    cursor: pointer;
+   justify-content: space-between;
+   font-size: 15px;
+   border-radius: 10px;
+   margin-left: 5px;
+   border: 1px solid;
+    color: var(--neutral-text);
+}
+
+.paragrafo_marketing{
+    display: flex;
+    font-size: 3px;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+
+@media (max-width: 768px) {
+    .dialog {
+    position: fixed;
+    inset: 0;
+
+    width: auto;
+    height: auto;
+
+    margin: 0;
+    padding: 0;
+
+    border: none;
+    background: rgba(0, 0, 0, 0.9);
+
+    justify-content: center;
+    align-items: center;
+    color: var(--neutral-text);
+    display: flex;
+}
+
+.container_dialog {
+    width: 350px;
+    min-height: 250px;
+
+    padding: 30px;
+
+    background: var(--neutral-darker);
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    position: relative;
+    z-index: 1;
+    
+}
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .card {
+        width: 100%;
+        max-width: auto;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    .h1 {
+        width: 100%;
+        max-width: auto;
+        margin: auto;
+        box-sizing: border-box;
+    }
+
+
+
+
+}

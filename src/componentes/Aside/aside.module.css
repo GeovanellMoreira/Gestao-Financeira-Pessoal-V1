@@ -1,0 +1,43 @@
+.aside {
+    max-width: 282px;
+    background-color: var(--neutral-header);
+    min-height: 83vh;
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.footer {
+    font-size: 13px;
+    line-height: 120%;
+    color: var(--neutral-text);
+    text-align: center;
+}
+
+/* Celular */
+@media (max-width: 768px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .aside {
+        max-width: 282px;
+        background-color: transparent;
+        padding: 0px;
+        gap: 5px;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .logo{
+        width: 50%;
+        max-width: 250px;
+        margin-top: 40px;
+        margin-left: 2px;
+        display: flex;
+        position: absolute;
+    }
+}
